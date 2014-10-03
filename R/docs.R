@@ -175,7 +175,9 @@ function(content, con, name, type = as.character(findType(content)),
 
 
   h = c( 'Content-Type' = type,
-         Slug = name)
+         Slug = name,
+         'GData-Version' = '3'
+       )
 
         # we expect the curl object to already contain the authentication
         # but since we replace the httpheader, we have to set it again.
