@@ -186,7 +186,7 @@ function(auth, ...)
 GoogleURLs =
   c(spreadsheets = "https://spreadsheets.google.com/feeds/spreadsheets/private/full",
     wise = "https://spreadsheets.google.com/feeds/spreadsheets/private/full",
-    documents = "https://docs.google.com/feeds/documents/private/full",
+    documents = "https://docs.google.com/feeds/default/private/full",
     writely = "https://docs.google.com/feeds/documents/private/full",
     #per http://stackoverflow.com/a/7596100/561698 and https://code.google.com/p/gdata-issues/issues/detail?id=591#c77
     pdf = "https://docs.google.com/feeds/default/private/full")
