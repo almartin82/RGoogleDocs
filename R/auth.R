@@ -439,7 +439,8 @@ c(
    TXT = "text/plain",
    XLS = "application/vnd.ms-excel",
    PPT = "application/vnd.ms-powerpoint",
-   PPS = "application/vnd.ms-powerpoint")
+   PPS = "application/vnd.ms-powerpoint,
+   PDF = "application/pdf")
 
 
 
