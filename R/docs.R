@@ -165,7 +165,7 @@ function(content, con, name, type = as.character(findType(content)),
      else
        stop("Not certain how to deal with this folder")
   } else
-     url = "https://docs.google.com/feeds/documents/private/full"  
+     url = "https://docs.google.com/feeds/default/private/full"  
   
   if(length(name) > 1) {
      # See  http://code.google.com/apis/documents/docs/2.0/developers <- guide <- protocol.html#UploadingToFolder
