@@ -174,9 +174,9 @@ function(content, con, name, type = as.character(findType(content)),
   }
 
 
-  h = c( 'Content-Type' = type,
-         Slug = name,
-         'GData-Version' = '3'
+  h = c( 'Content-Type' = type
+        ,Slug = name
+        #,'GData-Version' = '3'
        )
 
         # we expect the curl object to already contain the authentication
